@@ -1,4 +1,7 @@
 <?php
-require("task05.php");
-var_dump(calc_average(array(1, 4, 28, 12, 3, 4, 4, 27)));
+require("task06.php");
+echo "Sequence 0:" . PHP_EOL;
+sequence(0);
+echo "Sequence 3:" . PHP_EOL;
+sequence(3);
 ?>
