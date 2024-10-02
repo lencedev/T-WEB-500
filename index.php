@@ -1,9 +1,7 @@
 <?php
-require("task04.php");
-var_dump(calc("+", 1, 3));
-var_dump(calc("*", 7, 6));
-var_dump(calc("/", 4, 3));
-var_dump(calc("+/", 4, 2));
-var_dump(calc("/", 4, 0));
-var_dump(calc("", 1, 1));
+require("task06.php");
+echo "Sequence 0:" . PHP_EOL;
+sequence(0);
+echo "Sequence 4:" . PHP_EOL;
+sequence(3);
 ?>

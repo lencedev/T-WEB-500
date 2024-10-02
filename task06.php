@@ -1,13 +1,10 @@
 <?php
 function sequence(int $nb)
 {
-    if ($nb == 0)
-        return "1";
-    if ($nb == 1)
-        return "11";
+    $str = "1";
+    for ($i = 0; $i <= $nb; $i++) {
+        print ("$str\n");
 
-    $str = "11";
-    for ($i = 2; $i <= $nb; $i++) {
         $str = $str . '$';
         $len = strlen($str);
         $count = 1;
@@ -22,6 +19,5 @@ function sequence(int $nb)
                 $count++;
         }
         $str = $tmp;
-        print ("$str\n");
     }
 }
