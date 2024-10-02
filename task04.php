@@ -1,6 +1,9 @@
 <?php
 function calc(string $operator, int $nbr1, int $nbr2)
 {
+    if (!$operator)
+        return 1;
+
     switch ($operator) {
         case "*":
             return ($nbr1 * $nbr2);
