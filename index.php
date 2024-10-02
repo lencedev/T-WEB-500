@@ -1,6 +1,8 @@
 <?php
-require("task03.php");
-var_dump(get_shortest(array("Time", "flowing", "like", "a", "river")));
-var_dump(get_shortest(array("Run", "like", "hell")));
-var_dump(get_shortest(array("chou", "be", "do")));
+require("task04.php");
+var_dump(calc("+", 1, 3));
+var_dump(calc("*", 7, 6));
+var_dump(calc("/", 4, 3));
+var_dump(calc("+/", 4, 2));
+var_dump(calc("/", 4, 0));
 ?>
