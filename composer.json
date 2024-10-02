@@ -1,0 +1,6 @@
+{
+    "name": "owen/t-web-500-day08-mpl_owen2-bolling",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
