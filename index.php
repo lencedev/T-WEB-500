@@ -1,8 +1,4 @@
 <?php
-require("task04.php");
-var_dump(calc("+", 1, 3));
-var_dump(calc("*", 7, 6));
-var_dump(calc("/", 4, 3));
-var_dump(calc("+/", 4, 2));
-var_dump(calc("/", 4, 0));
+require("task05.php");
+var_dump(calc_average(array(1, 4, 28, 12, 3, 4, 4, 27)));
 ?>
